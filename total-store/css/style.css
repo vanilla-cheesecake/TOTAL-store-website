@@ -1,0 +1,64 @@
+body {
+  background-color: #0d6c70;
+}
+
+.container-fluid {
+  padding: 5px;
+
+}
+.container{
+  background-color:white;
+  padding:50px;  
+  border-radius: 25px;
+
+ }
+
+.btn-primary{
+  background-color: #0d6c70;
+  border: 1px solid #0d6c70;
+  width: 442px;
+}
+
+.btn-primary:hover{
+  background-color: #072e2f;
+  border: 1px solid #072e2f;
+}
+
+.form-control:focus {
+  border-color: #0d6c70;
+  box-shadow: inset 0 1px 1px #0d6c70, 0 0 8px #0d6c70;
+}
+
+
+
+/* SHOP */
+
+/* <div class="product-container">
+     <form method="post" action="home.php?action=add&id=<?php echo $row["id"]; ?>"> 
+                         <img src="../midterm/assets/products/<?php echo $row["image"]; ?>"/>
+                         <h3><?php echo $row["name"]; ?></h4>
+                         <h3>$<?php echo $row["price"]; ?></h3>
+                         <input type="text" name="quantity" value="1" />  
+                         <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>" />  
+                         <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>" />  
+                         <button type="submit" name="add_to_cart"value="Add to Cart">Add to cart</button>
+     </form>
+</div> */
+
+
+
+/* <img src="../midterm/assets/products/<?php echo $row["image"]; ?> " class="img-responsive img-fluid" alt=""/>
+								</div>
+								<div class="thumb-content">
+									<h4><?php echo $row["name"]; ?></h4>
+									<p class="item-price"><strike>$400.00</strike> <span>$<?php echo $row["price"]; ?></span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+                                             </div>
+                                             <button type="submit" class="btn btn-primary" name="add_to_cart"value="Add to Cart">Add to cart</button> */
